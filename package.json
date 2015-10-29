@@ -1,6 +1,6 @@
 {
   "name": "indexport",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "index.js made DRYer. Exports all the modules in a directory in just one sentence",
   "repository": "h2non/indexport",
   "author": "Tomas Aparicio",

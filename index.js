@@ -15,7 +15,7 @@ module.exports = function indexport (dir) {
 }
 
 function normalize (str) {
-  return str.replace(/^([A-Z])|\s(\w)/g, function (match, p1, p2, offset) {
-    return p2 ? p2.toUpperCase() : p1.toLowerCase()
-  }).replace(/\.js$/, '')
+  return str
+  .replace(/-([a-z])/ig, function (g) { return g[1].toUpperCase() })
+  .replace(/\.js$/, '')
 }
