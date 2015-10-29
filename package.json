@@ -1,0 +1,29 @@
+{
+  "name": "indexport",
+  "version": "0.1.0",
+  "description": "index.js made DRYer. Exports all the modules in a directory in just one sentence",
+  "repository": "h2non/indexport",
+  "author": "Tomas Aparicio",
+  "license": "MIT",
+  "keywords": [
+    "export",
+    "index.js",
+    "index",
+    "root",
+    "module",
+    "modules",
+    "public",
+    "alias",
+    "dry"
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1",
+    "tape": "^4.2.2"
+  }
+}
